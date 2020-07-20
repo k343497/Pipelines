@@ -20,7 +20,7 @@ stages:
     - pwsh: |
         $greeting = "Hello World"
         Write-Host "##vso[task.setvariable variable=StepVariable;isOutput=true]${greeting}"
-      name: BuildStep
+      name: BuildStep1232312
  
 - stage: Test
   dependsOn: Build
